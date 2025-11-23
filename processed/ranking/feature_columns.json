@@ -1,0 +1,11 @@
+[
+  "user_pref_match",
+  "user_total_seconds",
+  "user_avg_click",
+  "user_pref_score",
+  "latitude",
+  "longitude",
+  "review_count",
+  "stars",
+  "venue_cat_count"
+]
