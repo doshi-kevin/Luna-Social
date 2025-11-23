@@ -296,7 +296,20 @@ streamlit run app.py
 * Demonstrates “backend heavy” engineering skills required for Track 2
 
 
-socials\Luna-Social-AI-Companion.pdf
-socials\NotebookLM Mind Map.png
-socials\unnamed.png
+📘 **Luna Social AI Companion — Presentation PDF**  
+[Click here to open the PDF](socials/Luna-Social-AI-Companion.pdf)
+<iframe
+    src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/USERNAME/REPO/main/socials/Luna-Social-AI-Companion.pdf&embedded=true"
+    style="width:100%; height:600px;"
+    frameborder="0">
+</iframe>
+
+## 🧠 NotebookLM Mind Map
+<img src="socials/NotebookLM Mind Map.png" width="700">
+
+## 🖼️ System Diagram
+<img src="socials/unnamed.png" width="700">
+
+
+
 
