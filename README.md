@@ -297,12 +297,7 @@ streamlit run app.py
 
 
 📘 **Luna Social AI Companion — Presentation PDF**  
-[Click here to open the PDF](socials/Luna-Social-AI-Companion.pdf)
-<iframe
-    src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/USERNAME/REPO/main/socials/Luna-Social-AI-Companion.pdf&embedded=true"
-    style="width:100%; height:600px;"
-    frameborder="0">
-</iframe>
+[Click here to open the PDF](socials/The-Problem-Going-Out-Is-Broken.pdf)
 
 ## 🧠 NotebookLM Mind Map
 <img src="socials/NotebookLM Mind Map.png" width="700">

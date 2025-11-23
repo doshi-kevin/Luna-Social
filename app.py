@@ -1090,6 +1090,9 @@ elif page == "📊 Analytics":
 """
     )
 
+
+
+
 # =========================================================
 # 14. PAGE: LUNA AI — FULL CHAT EXPERIENCE
 # =========================================================
@@ -1136,3 +1139,48 @@ st.markdown(
     "</div>",
     unsafe_allow_html=True,
 )
+
+
+# ============================
+# HARD-CODED MAP OF SAVED VENUES
+# ============================
+import plotly.express as px
+
+st.subheader("🗺️ Your Liked Venues — Map View")
+
+saved_venue_ids = current_user.saved_venues
+
+if not saved_venue_ids:
+    st.info("You haven't liked or saved any venues yet!")
+else:
+    venues = []
+    for vid in saved_venue_ids:
+        v = db.get_venue(vid)
+        if v:
+            venues.append({
+                "name": v.name,
+                "lat": v.location[0],
+                "lon": v.location[1],
+                "rating": v.rating,
+                "category": v.category.value,
+                "address": v.address
+            })
+
+    df = pd.DataFrame(venues)
+
+    fig = px.scatter_mapbox(
+        df,
+        lat="lat",
+        lon="lon",
+        hover_name="name",
+        hover_data=["category", "rating", "address"],
+        zoom=11,
+        height=450
+    )
+
+    fig.update_layout(
+        mapbox_style="open-street-map",
+        margin=dict(l=0, r=0, t=0, b=0)
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
