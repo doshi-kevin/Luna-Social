@@ -223,7 +223,7 @@ We use synthetic + procedurally generated demo data:
 ### Groups & Chats
 
 * 5 demo groups
-* “NYC Foodies” includes **hardcoded Italian-focused messages** for LLM reasoning
+* “NYC Foodies” includes * Italian-focused messages** for LLM reasoning
 * All groups used for testing LLM group analysis
 
 ---
