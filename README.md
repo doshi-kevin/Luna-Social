@@ -17,6 +17,9 @@ This project fully satisfies **Track 2 Backend requirements**, showing complex M
 
 ---
 
+### Video Walkthrough
+<a href="https://www.loom.com/share/b2283fca25ac4e199ab1e21698e016c6">Video Walkthrough</a>
+
 ## 🧠 Core Features
 
 ### ⭐ **1. Hybrid Recommendation Engine**
