@@ -296,4 +296,7 @@ streamlit run app.py
 * Demonstrates “backend heavy” engineering skills required for Track 2
 
 
+socials\Luna-Social-AI-Companion.pdf
+socials\NotebookLM Mind Map.png
+socials\unnamed.png
 
